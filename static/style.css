@@ -1,0 +1,81 @@
+body {
+background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #443B96, #F60B68); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+}
+
+.navbar {
+    background:black;
+    opacity: 0.75;
+
+}
+
+a {
+    color: #ffffff;
+
+    text-shadow: #ffffff;
+
+
+}
+.nav-item{
+    font-size: 22px;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+
+}
+
+a:hover {
+    color: #f0f0f0;
+    font-width: 20px;
+  }
+
+.card{
+    background: #ffffff;
+    opacity: 0.80;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font: bold 20px/1 ;
+    border: 0.5px solid black;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.btn-st{
+    background: #f9f9f9;
+   	border: 2px solid #000000;
+    border-radius: 1000px;
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.btn-st:hover{
+    color: #4d089a;
+    border: 2px solid #4d089a;
+}
+.pred-t{
+    color: white;
+}
+.pred-t:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.creds{
+    color: white;
+}
+.creds:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
